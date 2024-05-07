@@ -1,0 +1,90 @@
+body {
+    background: rgb(75,129,149);
+    background: -moz-linear-gradient(90deg, rgba(75,129,149,1) 0%, rgba(220,118,81,1) 80%, rgba(245,207,142,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(75,129,149,1) 0%, rgba(220,118,81,1) 80%, rgba(245,207,142,1) 100%);
+    background: linear-gradient(90deg, rgba(75,129,149,1) 0%, rgba(220,118,81,1) 80%, rgba(245,207,142,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4b8195",endColorstr="#f5cf8e",GradientType=1);
+}
+
+.container-fluid {
+    padding: 20px;
+
+}
+
+body {
+    background-image: url('https://i.postimg.cc/wvMQ5FYf/the-academy-of-athens-is-a-part-of-athenian-trilogy-the-news-photo-1602079605.png');
+    background-size: cover; /* This property ensures that the background image covers the entire element */
+    background-repeat: no-repeat; /* This property prevents the background image from repeating */
+    /* Add other styles here */
+}
+
+
+.nav-item{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-size: 25px;
+    font-weight:bolder;
+}
+
+.navbar {
+    background-color: rgba(75, 129, 149, 0.25); /* Adjust the alpha value (0.25 in this example) to set the opacity */
+}
+
+
+.header-img {
+    max-height: 2em;
+}
+
+
+
+
+
+footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgb(48,52,52);
+}
+
+.footerContainer{
+    width: 100%;
+}
+
+.collab-img{
+    padding: 25px;
+}
+
+
+
+
+
+
+@media (max-width: 980px), (max-height: 492px) {
+    body {
+        background-size: 100vw 100vh; /* Set background size relative to viewport */
+    }
+}
+
+.footerBottom{
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p{
+    color: white;
+    font-size: small;
+}
+
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
